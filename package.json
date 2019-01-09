@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --watch --silent",
     "test:debug": "node --inspect node_modules/.bin/jest --watch",
-    "test:ci": "jest --silent",
+    "test:ci": "jest --silent --passWithNoTests",
     "cz": "git-cz",
     "semantic-release": "semantic-release"
   },
