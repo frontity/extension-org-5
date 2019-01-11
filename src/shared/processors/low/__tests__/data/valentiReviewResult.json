@@ -1,0 +1,592 @@
+{
+  "type": "element",
+  "component": "div",
+  "props": {
+    "scores": [91, 95, 93, 84, 86]
+  },
+  "children": [
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "id": "cb-review-title", "className": "entry-title" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": {},
+          "children": [
+            {
+              "type": "text",
+              "content": "Samsung Galaxy Watch",
+              "parent": "jest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-review-amazon_button" },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": { "className": "gaz_amz_btn_block" },
+          "children": [
+            {
+              "type": "element",
+              "component": "a",
+              "props": {
+                "rel": "nofollow",
+                "className": "gaz_amz_default gaz_amz",
+                "href": "https://www.frontity.shop/gp/product/42/?tag=frontity"
+              },
+              "children": [
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": { "className": "gaz_amz_logo" },
+                  "children": [
+                    {
+                      "type": "element",
+                      "component": "img",
+                      "props": {
+                        "src": "https://frontity.io/app/themes/valenti-child/generic-assets/shortcode/amazon/img/amazon_logo_min.png",
+                        "alt": "Amazon Logo",
+                        "data-attachment-id-source": "wp-query-transient-hit"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": { "className": "gaz_amz_buytext" },
+                  "children": []
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "gaz_amz_currency gaz_amz_currency_bef"
+                  },
+                  "children": [
+                    { "type": "text", "content": "EUR", "parent": "jest" }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": { "className": "gaz_amz_amount" },
+                  "children": [
+                    { "type": "text", "content": "299,00", "parent": "jest" }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {
+                    "className": "gaz_amz_currency gaz_amz_currency_aft"
+                  },
+                  "children": [
+                    { "type": "text", "content": "EUR", "parent": "jest" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "clear" },
+      "children": []
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Diseño", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "91%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score91" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:91%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "91%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Rendimiento", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "95%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score95" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:95%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "95%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Autonomía", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "91%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score91" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:91%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "91%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Software", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "93%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score93" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:93%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "93%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Funciones", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "91%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score91" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:91%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "91%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria" },
+          "children": [
+            { "type": "text", "content": "Precio", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-criteria-score" },
+          "children": [{ "type": "text", "content": "84%", "parent": "jest" }]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "cb-overlay score84" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": {
+                "className": "cb-zero-trigger",
+                "style": "width:84%;"
+              },
+              "children": []
+            }
+          ],
+          "parent": {
+            "children": [
+              {
+                "type": "element",
+                "component": "span",
+                "props": { "className": "cb-criteria-score" },
+                "children": [
+                  { "type": "text", "content": "84%", "parent": "jest" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-pros-cons cb-pros-list" },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": { "className": "cb-title" },
+          "children": [
+            { "type": "text", "content": "Lo Mejor", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "ul",
+          "props": {},
+          "children": [
+            {
+              "type": "element",
+              "component": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Buena relación calidad precio",
+                  "parent": "jest"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Funcionalidad excelente",
+                  "parent": "jest"
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "li",
+              "props": {},
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Diseño exquisito",
+                  "parent": "jest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-pros-cons cb-cons-list" },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": { "className": "cb-title" },
+          "children": [
+            { "type": "text", "content": "Lo Peor", "parent": "jest" }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "ul",
+          "props": {},
+          "children": [
+            {
+              "type": "element",
+              "component": "li",
+              "props": {},
+              "children": [
+                { "type": "text", "content": "Batería ", "parent": "jest" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "time",
+      "props": { "className": "cb-hide", "dateTime": "2018-12-03" },
+      "children": [
+        { "type": "text", "content": "2018-12-03", "parent": "jest" }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-score-box clearfix" },
+      "children": [
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "score" },
+          "children": [
+            { "type": "text", "content": "91", "parent": "jest" },
+            {
+              "type": "element",
+              "component": "span",
+              "props": { "className": "h2" },
+              "children": [{ "type": "text", "content": "%", "parent": "jest" }]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "component": "span",
+          "props": { "className": "score-title" },
+          "children": [
+            { "type": "text", "content": "Puntuación global", "parent": "jest" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "element",
+      "component": "div",
+      "props": { "className": "cb-bar cb-user-rating" },
+      "children": [
+        {
+          "type": "element",
+          "component": "div",
+          "props": { "id": "cb-vote", "className": "bg percentage" },
+          "children": [
+            {
+              "type": "element",
+              "component": "span",
+              "props": { "className": "cb-criteria" },
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Puntuación de los lectores: (",
+                  "parent": "jest"
+                },
+                {
+                  "type": "element",
+                  "component": "span",
+                  "props": {},
+                  "children": [
+                    { "type": "text", "content": "4", "parent": "jest" }
+                  ]
+                },
+                { "type": "text", "content": " Votos)", "parent": "jest" }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "div",
+              "props": { "className": "cb-criteria-score cb-average-score" },
+              "children": [
+                { "type": "text", "content": "86%", "parent": "jest" }
+              ]
+            },
+            {
+              "type": "element",
+              "component": "span",
+              "props": { "className": "cb-overlay score86" },
+              "children": [],
+              "parent": {
+                "children": [
+                  {
+                    "type": "element",
+                    "component": "div",
+                    "props": {
+                      "className": "cb-criteria-score cb-average-score"
+                    },
+                    "children": [
+                      { "type": "text", "content": "86%", "parent": "jest" }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
