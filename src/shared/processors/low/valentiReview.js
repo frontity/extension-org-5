@@ -3,7 +3,7 @@ import ValentiReview from '../../components/ValentiReview';
 export default {
   test: ({ component, props, ignore }) =>
     component === 'div' &&
-    props.className &&
+    !!props.className &&
     props.className.includes('cb-review-box') &&
     !ignore,
   process: element => {
@@ -24,7 +24,7 @@ export default {
         const score = parseInt(content, 10);
         e.props.className = e.props.className.concat(` score${score}`);
 
-        scores.push(score);
+        if (!scores.includes(score)) scores.push(score);
       } else if (e.children) {
         e.children.forEach(assingScoreClasses);
       }

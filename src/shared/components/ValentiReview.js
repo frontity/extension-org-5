@@ -3,7 +3,7 @@ import { number, node, arrayOf } from 'prop-types';
 import styled from 'styled-components';
 
 const ValentiReview = ({ children, scores }) => (
-  <Container scores={scores} className="valenti-review">
+  <Container scores={scores} className="valenti-review ignored-by-content">
     {children}
   </Container>
 );
